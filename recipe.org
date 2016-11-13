@@ -108,3 +108,17 @@
 
 * 日料
 * 西餐
+** 汤类
+*** 番茄蘑菇大虾汤
+| 主材料 | Ingredient    | 哪里买                   |
+|--------+---------------+--------------------------|
+| 冻虾   | Forzen Shrimp | Sam's Club               |
+| 西红柿 | Roma Tomato   | Asian SuperMarket/Meijer |
+| 蘑菇   | Mushroom      | Meijer                   |
+| 蜂蜜   | Honey         | Meijer                   |
+| 牛奶   | Milk          | Meijer                   |
+1. 用少许橄榄油将冻虾煸炒至变色。
+2. 放入姜，西红柿，蘑菇一起煸炒。
+3. 加入蜂蜜炒匀。
+4. 加入适量水，少许牛奶煮熟（15分钟左右）。
+5. 出锅后加盐调味。
