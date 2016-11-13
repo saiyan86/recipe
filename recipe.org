@@ -1,0 +1,110 @@
+#+TITLE:食谱/Recipe
+* 技巧/README
+** 食材准备
+*** 肉类/Meat
+<<技巧：肉类放血>>
+因为美国肉类血多，腥味重，所以需要放血。
+找一口大鍋，裝滿冷水。將生的肉略沖洗後放入，置於爐上。開火，要將火開到最小最小，直到再小就熄滅那麼小，然後等半個鐘頭(時間視鍋的大小而定，原則是火要小，水不能冒汽)。半小時後，會發現整鍋水泛紅(血水)，上面浮著一層雜質(淋巴)，聞起來奇臭無比。但是肉還是生的，水僅是溫的。將水倒掉，用溫水沖洗並搓揉一下肉，這樣的肉才算去腥。蔥薑酒在料理中應該是用少量來增香用的；大量的用來壓味，君臣之道就亂了。以上方法在台灣廚師的術語叫「跑活水」，算是不傳之秘。 
+
+** 厨具使用
+*** 高压锅/Pressure Cooker
+<<技巧：高压锅>>
+1. 炖肉时高压炖到七成熟，慢炖生下三成，既软烂又入味。
+2. 转成慢炖了再放盐，否则肉质会很柴，不烂。
+   
+* 中餐
+** 凉菜
+*** [[http://www.xinshipu.com/zuofa/2847][口水鸡]]
+注:不嫌麻烦可以用鸡的其他部位。。
+| 主材料 | Ingredient     | 哪里买 |
+|--------+----------------+--------|
+| 鸡胸肉 | Chicken Breast | Meijer |
+** 蛋类
+*** [[http://www.xinshipu.com/zuofa/762][西红柿炒鸡蛋]]
+| 主材料  | Ingredient  | 哪里买                   |
+|--------+-------------+--------------------------|
+| 西红柿 | Roma Tomato | Asian SuperMarket/Meijer |
+| 鸡蛋   | Egg         | Meatlab                  |
+** 牛肉
+[[技巧：肉类放血][注意事项-肉类放血]]
+[[技巧：高压锅][注意事项-高压锅使用]]
+*** [[http://www.meishic.com/2012/0213/niurou.html][清炖牛肉]]
+| 主材料 | Ingredient | 哪里买             |
+|------+------------+--------------------|
+| 牛腩 | Stew Beef  | World Harvest Food |
+*** [[http://www.douguo.com/cookbook/966801.html][红烧牛肉]]
+| 主材料   | Ingredient  | 哪里买                   |
+|--------+-------------+--------------------------|
+| 西红柿 | Roma Tomato | Asian SuperMarket/Meijer |
+| 牛腩   | Stew Beef   | World Harvest Food       |
+| 胡萝卜 | Carrot      | Meijer                   |
+| 卤肉包    | N/A         | Far East/Asian SuperMarket |
+** 猪肉
+[[技巧：肉类放血][注意事项-肉类放血]]
+[[技巧：高压锅][注意事项-高压锅使用]]
+*** [[http://www.xinshipu.com/zuofa/61029][清炖排骨]]
+| 主材料   | Ingredient | 哪里买                   |
+|--------+------------+--------------------------|
+| 排骨   | Pork Rib   | Meatlab                  |
+| 小白菜 | Bok Choy   | Asian SuperMarket/Meijer |
+*** [[https://youtu.be/XVVH8RtV6IY][猪肉炖粉条]]
+| 主材料     | Ingredient | 哪里买               |
+|----------+------------+----------------------|
+| 五花肉   | Pork Belly | Meatlab              |
+| 紫薯粉条 | N/A        | Lee's Oriental Foods |
+*** [[http://www.xinshipu.com/zuofa/150655][卤猪蹄]]
+| 主材料 | Ingredient | 哪里买  |
+|--------+------------+---------|
+| 猪蹄   | Pork Feet  | Meatlab |
+** 羊肉
+[[技巧：肉类放血][注意事项-肉类放血]]
+[[技巧：高压锅][注意事项-高压锅使用]]
+*** [[https://www.xiachufang.com/recipe/100355800/][清炖羊排]]
+| 主材料 | Ingredient | 哪里买   |
+|--------+------------+----------|
+| 羊排   | Lamb Rib   | Meatlab  |
+*** [[https://www.xiachufang.com/recipe/100109998/][香酥烤羊排]]
+| 主材料 | Ingredient | 哪里买   |
+|--------+------------+----------|
+| 羊排   | Lamb Rib   | Meatlab  |
+** 鸡肉
+*** [[http://www.xinshipu.com/zuofa/92163][可乐鸡翅]]
+| 主材料 | Ingredient   | 哪里买 |
+|--------+--------------+--------|
+| 鸡翅   | Chicken Wing | Meijer | 
+*** [[http://www.xinshipu.com/zuofa/1424][大盘鸡]]
+| 主材料 | Ingredient    | 哪里买            |
+|--------+---------------+-------------------|
+| 整鸡   | Whole Chicken | Meatlab           |
+| 宽面条 | N/A           | Asian SuperMarket |
+** 鱼肉
+*** [[http://www.xinshipu.com/zuofa/3379][清蒸龙利鱼]]
+| 主材料       | Ingredient | 哪里买            |
+|--------------+------------+-------------------|
+| 龙利鱼(活鱼) | Tilapia    | Asian SuperMarket |
+*** [[http://www.xinshipu.com/zuofa/599665][水煮鱼]]
+注:把菜谱中草鱼换成鱼片即可。(省略步骤2)
+| 主材料   | Ingredient | 哪里买 |
+|----------+------------+--------|
+| 龙利鱼片 | Tilapia    | Meijer |
+** 素菜
+*** [[http://www.xinshipu.com/zuofa/63461][炒土豆丝]]
+| 主材料 | Ingredient | 哪里买 |
+|--------+------------+--------|
+| 土豆   | Potato     | Meijer |
+** 汤类
+*** [[http://www.xinshipu.com/zuofa/204569][冰糖绿豆汤]]
+| 主材料 | Ingredient | 哪里买                     |
+|--------+------------+----------------------------|
+| 绿豆   | Mung Bean  | Far East/Asian SuperMarket |
+** 甜点
+* 韩餐
+** 猪肉
+*** [[http://www.xinshipu.com/zuofa/45][辣白菜炒五花肉]]
+| 主材料   | Ingredient | 哪里买                           |
+|--------+------------+----------------------------------|
+| 五花肉 | Pork Belly | Meatlab                          |
+| 泡菜   | Kimchi     | Green Onion/Lee's Oriental Foods |
+
+* 日料
+* 西餐

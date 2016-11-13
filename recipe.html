@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>食谱/Recipe</title>
+<!-- 2016-10-27 Thu 19:00 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">食谱/Recipe</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. 技巧/README</a>
+<ul>
+<li><a href="#sec-1-1">1.1. 食材准备</a>
+<ul>
+<li><a href="#sec-1-1-1">1.1.1. 肉类/Meat</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-2">1.2. 厨具使用</a>
+<ul>
+<li><a href="#sec-1-2-1">1.2.1. 高压锅/Pressure Cooker</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-2">2. 中餐</a>
+<ul>
+<li><a href="#sec-2-1">2.1. 凉菜</a>
+<ul>
+<li><a href="#sec-2-1-1">2.1.1. 口水鸡</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-2">2.2. 蛋类</a>
+<ul>
+<li><a href="#sec-2-2-1">2.2.1. 西红柿炒鸡蛋</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-3">2.3. 牛肉</a>
+<ul>
+<li><a href="#sec-2-3-1">2.3.1. 清炖牛肉</a></li>
+<li><a href="#sec-2-3-2">2.3.2. 红烧牛肉</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-4">2.4. 猪肉</a>
+<ul>
+<li><a href="#sec-2-4-1">2.4.1. 辣白菜炒五花肉</a></li>
+<li><a href="#sec-2-4-2">2.4.2. 清炖排骨</a></li>
+<li><a href="#sec-2-4-3">2.4.3. 猪肉炖粉条</a></li>
+<li><a href="#sec-2-4-4">2.4.4. 卤猪蹄</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-5">2.5. 羊肉</a>
+<ul>
+<li><a href="#sec-2-5-1">2.5.1. 清炖羊排</a></li>
+<li><a href="#sec-2-5-2">2.5.2. 香酥烤羊排</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-6">2.6. 鸡肉</a>
+<ul>
+<li><a href="#sec-2-6-1">2.6.1. 可乐鸡翅</a></li>
+<li><a href="#sec-2-6-2">2.6.2. 大盘鸡</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-7">2.7. 鱼肉</a>
+<ul>
+<li><a href="#sec-2-7-1">2.7.1. 清蒸龙利鱼</a></li>
+<li><a href="#sec-2-7-2">2.7.2. 水煮鱼</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-8">2.8. 素菜</a>
+<ul>
+<li><a href="#sec-2-8-1">2.8.1. 炒土豆丝</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-9">2.9. 汤类</a>
+<ul>
+<li><a href="#sec-2-9-1">2.9.1. 冰糖绿豆汤</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-10">2.10. 甜点</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. 西餐</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> 技巧/README</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> 食材准备</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><div id="outline-container-sec-1-1-1" class="outline-4">
+<h4 id="sec-1-1-1"><span class="section-number-4">1.1.1</span> 肉类/Meat</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+<a id="" name=""></a>
+因为美国肉类血多，腥味重，所以需要放血。
+找一口大鍋，裝滿冷水。將生的肉略沖洗後放入，置於爐上。開火，要將火開到最小最小，直到再小就熄滅那麼小，然後等半個鐘頭(時間視鍋的大小而定，原則是火要小，水不能冒汽)。半小時後，會發現整鍋水泛紅(血水)，上面浮著一層雜質(淋巴)，聞起來奇臭無比。但是肉還是生的，水僅是溫的。將水倒掉，用溫水沖洗並搓揉一下肉，這樣的肉才算去腥。蔥薑酒在料理中應該是用少量來增香用的；大量的用來壓味，君臣之道就亂了。以上方法在台灣廚師的術語叫「跑活水」，算是不傳之秘。 
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> 厨具使用</h3>
+<div class="outline-text-3" id="text-1-2">
+</div><div id="outline-container-sec-1-2-1" class="outline-4">
+<h4 id="sec-1-2-1"><span class="section-number-4">1.2.1</span> 高压锅/Pressure Cooker</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+<a id="" name=""></a>
+</p>
+<ol class="org-ol">
+<li>炖肉时高压炖到七成熟，慢炖生下三成，既软烂又入味。
+</li>
+<li>转成慢炖了再放盐，否则肉质会很柴，不烂。
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> 中餐</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> 凉菜</h3>
+<div class="outline-text-3" id="text-2-1">
+</div><div id="outline-container-sec-2-1-1" class="outline-4">
+<h4 id="sec-2-1-1"><span class="section-number-4">2.1.1</span> <a href="http://www.xinshipu.com/zuofa/2847">口水鸡</a></h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+注:不嫌麻烦可以用鸡的其他部位。。
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">鸡胸肉</td>
+<td class="left">Chicken Breast</td>
+<td class="left">Meijer</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> 蛋类</h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-sec-2-2-1" class="outline-4">
+<h4 id="sec-2-2-1"><span class="section-number-4">2.2.1</span> <a href="http://www.xinshipu.com/zuofa/762">西红柿炒鸡蛋</a></h4>
+<div class="outline-text-4" id="text-2-2-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">西红柿</td>
+<td class="left">Roma Tomato</td>
+<td class="left">Asian SuperMarket/Meijer</td>
+</tr>
+
+<tr>
+<td class="left">鸡蛋</td>
+<td class="left">Egg</td>
+<td class="left">Meatlab</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> 牛肉</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+<a href="#">注意事项-肉类放血</a>
+<a href="#">注意事项-高压锅使用</a>
+</p>
+</div>
+<div id="outline-container-sec-2-3-1" class="outline-4">
+<h4 id="sec-2-3-1"><span class="section-number-4">2.3.1</span> <a href="http://www.meishic.com/2012/0213/niurou.html">清炖牛肉</a></h4>
+<div class="outline-text-4" id="text-2-3-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">牛腩</td>
+<td class="left">Stew Beef</td>
+<td class="left">World Harvest Food</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-2-3-2" class="outline-4">
+<h4 id="sec-2-3-2"><span class="section-number-4">2.3.2</span> <a href="http://www.douguo.com/cookbook/966801.html">红烧牛肉</a></h4>
+<div class="outline-text-4" id="text-2-3-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">西红柿</td>
+<td class="left">Roma Tomato</td>
+<td class="left">Asian SuperMarket/Meijer</td>
+</tr>
+
+<tr>
+<td class="left">牛腩</td>
+<td class="left">Stew Beef</td>
+<td class="left">World Harvest Food</td>
+</tr>
+
+<tr>
+<td class="left">胡萝卜</td>
+<td class="left">Carrot</td>
+<td class="left">Meijer</td>
+</tr>
+
+<tr>
+<td class="left">卤肉包</td>
+<td class="left">N/A</td>
+<td class="left">Far East/Asian SuperMarket</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> 猪肉</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+<a href="#">注意事项-肉类放血</a>
+<a href="#">注意事项-高压锅使用</a>
+</p>
+</div>
+<div id="outline-container-sec-2-4-1" class="outline-4">
+<h4 id="sec-2-4-1"><span class="section-number-4">2.4.1</span> <a href="http://www.xinshipu.com/zuofa/45">辣白菜炒五花肉</a></h4>
+<div class="outline-text-4" id="text-2-4-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">五花肉</td>
+<td class="left">Pork Belly</td>
+<td class="left">Meatlab</td>
+</tr>
+
+<tr>
+<td class="left">泡菜</td>
+<td class="left">Kimchi</td>
+<td class="left">Green Onion/Lee's Oriental Foods</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-2-4-2" class="outline-4">
+<h4 id="sec-2-4-2"><span class="section-number-4">2.4.2</span> <a href="http://www.xinshipu.com/zuofa/61029">清炖排骨</a></h4>
+<div class="outline-text-4" id="text-2-4-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">排骨</td>
+<td class="left">Pork Rib</td>
+<td class="left">Meatlab</td>
+</tr>
+
+<tr>
+<td class="left">小白菜</td>
+<td class="left">Bok Choy</td>
+<td class="left">Asian SuperMarket/Meijer</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-2-4-3" class="outline-4">
+<h4 id="sec-2-4-3"><span class="section-number-4">2.4.3</span> <a href="https://youtu.be/XVVH8RtV6IY">猪肉炖粉条</a></h4>
+<div class="outline-text-4" id="text-2-4-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">五花肉</td>
+<td class="left">Pork Belly</td>
+<td class="left">Meatlab</td>
+</tr>
+
+<tr>
+<td class="left">紫薯粉条</td>
+<td class="left">N/A</td>
+<td class="left">Lee's Oriental Foods</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-2-4-4" class="outline-4">
+<h4 id="sec-2-4-4"><span class="section-number-4">2.4.4</span> <a href="http://www.xinshipu.com/zuofa/150655">卤猪蹄</a></h4>
+<div class="outline-text-4" id="text-2-4-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">猪蹄</td>
+<td class="left">Pork Feet</td>
+<td class="left">Meatlab</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-5" class="outline-3">
+<h3 id="sec-2-5"><span class="section-number-3">2.5</span> 羊肉</h3>
+<div class="outline-text-3" id="text-2-5">
+<p>
+<a href="#">注意事项-肉类放血</a>
+<a href="#">注意事项-高压锅使用</a>
+</p>
+</div>
+<div id="outline-container-sec-2-5-1" class="outline-4">
+<h4 id="sec-2-5-1"><span class="section-number-4">2.5.1</span> <a href="https://www.xiachufang.com/recipe/100355800/">清炖羊排</a></h4>
+<div class="outline-text-4" id="text-2-5-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">羊排</td>
+<td class="left">Lamb Rib</td>
+<td class="left">Meatlab</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-2-5-2" class="outline-4">
+<h4 id="sec-2-5-2"><span class="section-number-4">2.5.2</span> <a href="https://www.xiachufang.com/recipe/100109998/">香酥烤羊排</a></h4>
+<div class="outline-text-4" id="text-2-5-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">羊排</td>
+<td class="left">Lamb Rib</td>
+<td class="left">Meatlab</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-6" class="outline-3">
+<h3 id="sec-2-6"><span class="section-number-3">2.6</span> 鸡肉</h3>
+<div class="outline-text-3" id="text-2-6">
+</div><div id="outline-container-sec-2-6-1" class="outline-4">
+<h4 id="sec-2-6-1"><span class="section-number-4">2.6.1</span> <a href="http://www.xinshipu.com/zuofa/92163">可乐鸡翅</a></h4>
+<div class="outline-text-4" id="text-2-6-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">鸡翅</td>
+<td class="left">Chicken Wing</td>
+<td class="left">Meijer</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-2-6-2" class="outline-4">
+<h4 id="sec-2-6-2"><span class="section-number-4">2.6.2</span> <a href="http://www.xinshipu.com/zuofa/1424">大盘鸡</a></h4>
+<div class="outline-text-4" id="text-2-6-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">整鸡</td>
+<td class="left">Whole Chicken</td>
+<td class="left">Meatlab</td>
+</tr>
+
+<tr>
+<td class="left">宽面条</td>
+<td class="left">N/A</td>
+<td class="left">Asian SuperMarket</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-7" class="outline-3">
+<h3 id="sec-2-7"><span class="section-number-3">2.7</span> 鱼肉</h3>
+<div class="outline-text-3" id="text-2-7">
+</div><div id="outline-container-sec-2-7-1" class="outline-4">
+<h4 id="sec-2-7-1"><span class="section-number-4">2.7.1</span> <a href="http://www.xinshipu.com/zuofa/3379">清蒸龙利鱼</a></h4>
+<div class="outline-text-4" id="text-2-7-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">龙利鱼(活鱼)</td>
+<td class="left">Tilapia</td>
+<td class="left">Asian SuperMarket</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-sec-2-7-2" class="outline-4">
+<h4 id="sec-2-7-2"><span class="section-number-4">2.7.2</span> <a href="http://www.xinshipu.com/zuofa/599665">水煮鱼</a></h4>
+<div class="outline-text-4" id="text-2-7-2">
+<p>
+注:把菜谱中草鱼换成鱼片即可。(省略步骤2)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">龙利鱼片</td>
+<td class="left">Tilapia</td>
+<td class="left">Meijer</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-8" class="outline-3">
+<h3 id="sec-2-8"><span class="section-number-3">2.8</span> 素菜</h3>
+<div class="outline-text-3" id="text-2-8">
+</div><div id="outline-container-sec-2-8-1" class="outline-4">
+<h4 id="sec-2-8-1"><span class="section-number-4">2.8.1</span> <a href="http://www.xinshipu.com/zuofa/63461">炒土豆丝</a></h4>
+<div class="outline-text-4" id="text-2-8-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">土豆</td>
+<td class="left">Potato</td>
+<td class="left">Meijer</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-9" class="outline-3">
+<h3 id="sec-2-9"><span class="section-number-3">2.9</span> 汤类</h3>
+<div class="outline-text-3" id="text-2-9">
+</div><div id="outline-container-sec-2-9-1" class="outline-4">
+<h4 id="sec-2-9-1"><span class="section-number-4">2.9.1</span> <a href="http://www.xinshipu.com/zuofa/204569">冰糖绿豆汤</a></h4>
+<div class="outline-text-4" id="text-2-9-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">主材料</th>
+<th scope="col" class="left">Ingredient</th>
+<th scope="col" class="left">哪里买</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">绿豆</td>
+<td class="left">Mung Bean</td>
+<td class="left">Far East/Asian SuperMarket</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2-10" class="outline-3">
+<h3 id="sec-2-10"><span class="section-number-3">2.10</span> 甜点</h3>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> 西餐</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2016-10-27 Thu 19:00</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.1.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
