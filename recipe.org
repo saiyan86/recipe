@@ -19,6 +19,12 @@
 | 主材料 | Ingredient     | 哪里买 |
 |--------+----------------+--------|
 | 鸡胸肉 | Chicken Breast | Meijer |
+*** [[http://cn.dealmoon.com/DIY-XiAn-Style-Jelly-Noodle-Recipe/432219.html][凉皮]]
+注意：和面时候要加盐！！！
+| 主材料   | Ingredient        | 哪里买            |
+|----------+-------------------+-------------------|
+| 高筋面粉 | High Gluten Flour | Asian SuperMarket |
+| 黄瓜     | Cucumber          | Meijer            |
 ** 蛋类
 *** [[http://www.xinshipu.com/zuofa/762][西红柿炒鸡蛋]]
 | 主材料  | Ingredient  | 哪里买                   |
@@ -29,14 +35,20 @@
 [[技巧：肉类放血][注意事项-肉类放血]]
 [[技巧：高压锅][注意事项-高压锅使用]]
 *** [[http://www.meishic.com/2012/0213/niurou.html][清炖牛肉]]
-| 主材料 | Ingredient | 哪里买             |
-|------+------------+--------------------|
-| 牛腩 | Stew Beef  | World Harvest Food |
+| 主材料 | Ingredient                           | 哪里买                            |
+|--------+--------------------------------------+-----------------------------------|
+| 各种牛肉 | Beef Flank/Beef Chuck Eye/Beef Shank | Meijer/MeatLab/World Harvest Food |
+1. 跑活水放血
+2. 沸水漂血泡
+3. 换高压锅，放葱，姜，八角，大料，香叶，花椒
+4. 高压锅Meat档炖12分钟
+5. 加老抽，生抽，盐
+6. Slow cook一个小时hoi
 *** [[http://www.douguo.com/cookbook/966801.html][红烧牛肉]]
 | 主材料   | Ingredient  | 哪里买                   |
 |--------+-------------+--------------------------|
 | 西红柿 | Roma Tomato | Asian SuperMarket/Meijer |
-| 牛腩   | Stew Beef   | World Harvest Food       |
+| 各种牛肉 | Beef Flank/Beef Chuck Eye/Beef Shank | Meijer/MeatLab/World Harvest Food |
 | 胡萝卜 | Carrot      | Meijer                   |
 | 卤肉包    | N/A         | Far East/Asian SuperMarket |
 ** 猪肉
